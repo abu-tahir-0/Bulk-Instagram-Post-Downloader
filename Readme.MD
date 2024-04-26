@@ -34,13 +34,11 @@ python python instagram_downloader.py
 
 - To download photos from a single user:
 
-1. Download Instagram Photos
+1. To Download Instagram Photos
     Enter your choice: 2
     Enter the Instagram username: example_user
 
 2. To download videos from multiple users:
-
- Download Instagram Videos
     Enter your choice: 1
     Do you want to download posts from multiple users? (yes/no): yes
     Enter the Instagram usernames (separated by comma): user1,user2,user3
