@@ -1,4 +1,4 @@
-# Instagram Downloader
+# Instagram Bulk Post Downloader
 
 ## Overview
 
