@@ -3,6 +3,15 @@ from tqdm import tqdm
 import os
 import logging
 
+#            _             _______    _     _      
+#      /\   | |           |__   __|  | |   (_)     
+#     /  \  | |__  _   _     | | __ _| |__  _ _ __ 
+#    / /\ \ | '_ \| | | |    | |/ _` | '_ \| | '__|
+#   / ____ \| |_) | |_| |    | | (_| | | | | | |   
+#  /_/    \_\_.__/ \__,_|    |_|\__,_|_| |_|_|_|                                                  
+
+
+
 logging.basicConfig(filename='app.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 
 def download_instagram(usernames, download_photos=False, download_videos=True):
