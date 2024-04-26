@@ -40,6 +40,15 @@ def validate_input(choice):
         raise ValueError("Invalid choice. Please enter a number between 1 and 3.")
 
 def menu():
+    
+    print("""
+                _             _______    _     _      
+          /\   | |           |__   __|  | |   (_)     
+         /  \  | |__  _   _     | | __ _| |__  _ _ __ 
+        / /\ \ | '_ \| | | |    | |/ _` | '_ \| | '__|
+       / ____ \| |_) | |_| |    | | (_| | | | | | |   
+      /_/    \_\_.__/ \__,_|    |_|\__,_|_| |_|_|_|                                                  
+    """)
     """
     This function displays the menu to the user.
     """
