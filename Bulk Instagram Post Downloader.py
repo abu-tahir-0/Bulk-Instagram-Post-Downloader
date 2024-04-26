@@ -42,7 +42,11 @@ def menu():
     try:
         validate_input(choice)
         if choice in ['1', '2']:
-            usernames = input("Enter the Instagram usernames (separated by comma): ").split(',')
+            multiple_users = input("Do you want to download posts from multiple users? (yes/no): ")
+            if multiple_users.lower() == 'yes':
+                usernames = input("Enter the Instagram usernames (separated by comma): ").split(',')
+            else:
+                usernames = [input("Enter the Instagram username: ")]
             download_instagram(usernames, download_photos=choice=='2', download_videos=choice=='1')
         elif choice == '3':
             print("Exiting the program...")
