@@ -1,13 +1,1 @@
-root - ERROR - Exception occurred while downloading posts for _this_is_tahir_
-Traceback (most recent call last):
-  File "/workspaces/Bulk-Instagram-Post-Downloader/Bulk_Instagram_Post_Downloader.py", line 24, in download_instagram
-    profile = instaloader.Profile.from_username(loader.context, username)
-  File "/home/codespace/.python/current/lib/python3.10/site-packages/instaloader/structures.py", line 877, in from_username
-    profile._obtain_metadata()  # to raise ProfileNotExistsException now in case username is invalid
-  File "/home/codespace/.python/current/lib/python3.10/site-packages/instaloader/structures.py", line 946, in _obtain_metadata
-    metadata = self._context.get_iphone_json(f'api/v1/users/web_profile_info/?username={self.username}',
-  File "/home/codespace/.python/current/lib/python3.10/site-packages/instaloader/instaloadercontext.py", line 571, in get_iphone_json
-    response = self.get_json(path, params, 'i.instagram.com', tempsession, response_headers=response_headers)
-  File "/home/codespace/.python/current/lib/python3.10/site-packages/instaloader/instaloadercontext.py", line 395, in get_json
-    raise LoginRequiredException("Redirected to login page. Use --login.")
-instaloader.exceptions.LoginRequiredException: Redirected to login page. Use --login.
+
